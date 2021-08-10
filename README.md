@@ -1,4 +1,4 @@
-# Recipeat API
+# Auth API
 
 
 ## Running Locally
@@ -46,7 +46,7 @@ $ heroku open
 
 ```sh
 $ heroku login
-$ heroku git:clone -a recipeat-auth
+$ heroku git:clone -a api-auth
 $ git push heroku master
 
 $ heroku run python manage.py migrate
@@ -71,9 +71,9 @@ or
 
 ## Information to admin django
 - first run command: $ python manage.py createsuperuser
-- Username (leave blank to use 'recipeat'): recipeat
+- Username (leave blank to use 'recipeat'): auth
 - Email address: your.email@gmail.com
-- Password: reci123
+- Password: auth123
 - $ heroku local -p 8000
 
 ## Documentation
@@ -81,4 +81,3 @@ or
 For more information about using Python on Heroku, see these Dev Center articles:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
-# deploy# RestApi-auth
