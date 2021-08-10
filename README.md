@@ -29,9 +29,9 @@ Make sure you have Python 3.9 [installed locally](http://install.python-guide.or
 
 ```sh
 $ heroku login
-$ cd authentication_django/
+$ cd RestApi-auth/
 $ git init
-$ heroku git:clone -a recipeat-auth
+$ heroku git:clone -a RestApi-auth
 
 
 $ git add .
@@ -46,7 +46,7 @@ $ heroku open
 
 ```sh
 $ heroku login
-$ heroku git:clone -a api-auth
+$ heroku git:clone -a RestApi-auth
 $ git push heroku master
 
 $ heroku run python manage.py migrate
@@ -71,7 +71,7 @@ or
 
 ## Information to admin django
 - first run command: $ python manage.py createsuperuser
-- Username (leave blank to use 'recipeat'): auth
+- Username (leave blank to use 'RestApi-auth'): auth
 - Email address: your.email@gmail.com
 - Password: auth123
 - $ heroku local -p 8000
